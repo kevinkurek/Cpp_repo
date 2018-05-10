@@ -14,6 +14,6 @@ int main()
     int y = 10;
     int sum = x + y;
     std::cout << "Hello, World!\n";
-    std::cout << sum;
+    std::cout << "Total Sum: " << sum << "\n";
     return 0;
 }
