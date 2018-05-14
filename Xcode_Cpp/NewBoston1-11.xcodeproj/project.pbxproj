@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0A0A761120A814E90072278F /* Xcode_Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Xcode_Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0A761120A814E90072278F /* NewBoston1-11 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NewBoston1-11"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0A761420A814E90072278F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		0A0A761220A814E90072278F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A0A761120A814E90072278F /* Xcode_Cpp */,
+				0A0A761120A814E90072278F /* NewBoston1-11 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +65,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A0A761020A814E90072278F /* Xcode_Cpp */ = {
+		0A0A761020A814E90072278F /* NewBoston1-11 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A0A761820A814E90072278F /* Build configuration list for PBXNativeTarget "Xcode_Cpp" */;
+			buildConfigurationList = 0A0A761820A814E90072278F /* Build configuration list for PBXNativeTarget "NewBoston1-11" */;
 			buildPhases = (
 				0A0A760D20A814E90072278F /* Sources */,
 				0A0A760E20A814E90072278F /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = Xcode_Cpp;
+			name = "NewBoston1-11";
 			productName = Xcode_Cpp;
-			productReference = 0A0A761120A814E90072278F /* Xcode_Cpp */;
+			productReference = 0A0A761120A814E90072278F /* NewBoston1-11 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A0A760C20A814E90072278F /* Build configuration list for PBXProject "Xcode_Cpp" */;
+			buildConfigurationList = 0A0A760C20A814E90072278F /* Build configuration list for PBXProject "NewBoston1-11" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A0A761020A814E90072278F /* Xcode_Cpp */,
+				0A0A761020A814E90072278F /* NewBoston1-11 */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A0A760C20A814E90072278F /* Build configuration list for PBXProject "Xcode_Cpp" */ = {
+		0A0A760C20A814E90072278F /* Build configuration list for PBXProject "NewBoston1-11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A0A761620A814E90072278F /* Debug */,
@@ -262,7 +262,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A0A761820A814E90072278F /* Build configuration list for PBXNativeTarget "Xcode_Cpp" */ = {
+		0A0A761820A814E90072278F /* Build configuration list for PBXNativeTarget "NewBoston1-11" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A0A761920A814E90072278F /* Debug */,
