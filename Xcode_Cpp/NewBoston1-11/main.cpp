@@ -9,10 +9,12 @@
 #include <iostream>
 using namespace std;
 
-// Prototyping This Function
+// Prototyping Functions Before int main()
 void printSomething();
 void ifstatement_function();
 int calculate();
+void printCrap(int x);
+int addNumbers(int x, int y);
 
 int main()
 {
@@ -20,6 +22,8 @@ int main()
     printSomething();
     ifstatement_function();
     calculate();
+    printCrap(10);
+    cout << addNumbers(10, 15) << endl;
 
 }
 
@@ -43,7 +47,6 @@ void ifstatement_function(){
 
 int calculate(){
     
-    
     int x = 6;
     int y = 10;
     int sum = x + y;
@@ -53,3 +56,21 @@ int calculate(){
     return 0;
     
 }
+
+
+// Parameters within Functions
+void printCrap(int x){
+    cout << "Kevin's favorite number is " << x << endl;
+
+}
+
+
+// Multiple parameters
+int addNumbers(int x, int y){
+    
+    int answer = x + y;
+    return answer;
+    
+}
+
+
