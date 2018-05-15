@@ -17,8 +17,15 @@ int square(int x);
 
 // Classes
 class KevinsClass{
+
+    // Access Specifier (public & private)
+public:
     
-public: // Access Specifier
+    // Constructor (automatically executes, same name as class is intentional).
+    KevinsClass(string z){
+        setName(z);
+    }
+    
     
     void coolSaying(){
         cout << "Preaching to the choir" << endl;
@@ -35,20 +42,23 @@ public: // Access Specifier
 private:
     string name;
     
-    
 };
 
 
 // Main
 int main() {
     
-    KevinsClass ko;
-    ko.setName("Kevin Thomas Kurek");
+    // Instance of Class (object), 1st.
+    KevinsClass ko("Kevin T Kurek");
+//    ko.setName("Kevin Thomas Kurek"); This will override the constructor above
     cout << ko.getName() << endl;
- 
+    
+    // Function outside of class
     cout << square(8) << endl;
     
-    KevinsClass KevinsObject;
+    // Instance of Class (object), 2nd.
+    KevinsClass KevinsObject("Kevin Thomas Kurek");
+    cout << KevinsObject.getName() << endl;
     KevinsObject.coolSaying();
 }
 
