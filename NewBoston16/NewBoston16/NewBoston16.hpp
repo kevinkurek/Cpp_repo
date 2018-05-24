@@ -12,8 +12,16 @@
 
 class Kevin{
     
+    int gx;
+    int gy;
+    
 public:
-     Kevin();
+     Kevin(int x, int y);
+    int getSum();
+    int getSquareX();
+    int getSquareY();
+    int IterSum();
+    int Kurek();
     
     
 };

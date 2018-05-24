@@ -8,11 +8,49 @@
 
 #include "NewBoston16.hpp"
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-Kevin::Kevin()
+// Constructor that always runs initially
+Kevin::Kevin(int x, int y)
 {
-    cout << "I am a banana" << endl;
+    cout << "Constructor Initialized Properly" << endl;
     
+    gx = x;
+    gy = y;
+
 }
 
+
+int Kevin::getSum(){
+    return gx + gy;
+}
+
+
+int Kevin::getSquareX(){
+    return pow(gx,2);
+}
+
+int Kevin::getSquareY(){
+    return pow(gy, 2);
+}
+
+int Kevin::IterSum(){
+    
+    int total = 0;
+    
+    while(gx < 20){
+//        cout << total << endl;
+        total = total + gx;
+        gx++;
+    }
+    cout << "IterSum of X is: ";
+    return total;
+}
+
+
+int Kevin::Kurek()
+{
+    cout << "Just some string" << endl;
+    return 0;
+}
