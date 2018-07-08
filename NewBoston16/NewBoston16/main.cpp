@@ -12,7 +12,7 @@ using namespace std;
 
 int main() {
     
-    Kevin kevinobject(10,16);
+    Kevin kevinobject(5,9);
     cout << "Sum of Digits is: " << kevinobject.getSum() << endl;
     cout << "Square of X digit is: " << kevinobject.getSquareX() << endl;
     cout << "Square of Y Digit is: " << kevinobject.getSquareY() << endl;

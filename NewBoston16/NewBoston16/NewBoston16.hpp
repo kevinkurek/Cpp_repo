@@ -16,7 +16,7 @@ class Kevin{
     int gy;
     
 public:
-     Kevin(int x, int y);
+    Kevin(int x, int y);
     int getSum();
     int getSquareX();
     int getSquareY();
