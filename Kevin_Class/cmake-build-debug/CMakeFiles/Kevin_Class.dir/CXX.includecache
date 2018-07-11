@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Kevin_Class/Kevin.cpp
+Kevin.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Kevin_Class/Kevin.h
+iostream
+-
+string
+-
+cmath
+-
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Kevin_Class/Kevin.h
+iostream
+-
+stdio.h
+-
+string
+-
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Kevin_Class/main.cpp
+iostream
+-
+Kevin.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Kevin_Class/Kevin.h
+string
+-
+
