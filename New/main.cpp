@@ -2,6 +2,8 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -94,7 +96,33 @@ int main() {
         cout << "Second word is longer." << endl;
     }
     else {
-        cout << "Words are the same length.";
+        cout << "Words are the same length." << endl;
     }
+// End Exercise
+
+// Vector Example w/ printing items in vector
+    vector<int> my_int_vector;
+    for (int i; i<10; i++){
+        my_int_vector.push_back(i);
+    }
+
+    for (auto item:my_int_vector){
+        cout << item << " ";
+    }
+
+    vector<string> my_string_vector;
+    cout << "Enter three words ";
+    for (int i=0; i<3; i++){
+        string s;
+        cin >> s;
+        my_string_vector.push_back(s);
+    }
+
+    sort(begin(my_string_vector), end(my_string_vector));
+    for(auto item:my_string_vector){
+        cout << item << " ";
+    }
+    cout << endl;
+
 
 }

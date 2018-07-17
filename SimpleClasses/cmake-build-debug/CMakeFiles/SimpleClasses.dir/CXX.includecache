@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.cpp
+Account.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.h
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.h
+vector
+-
+string
+-
+Transaction.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.h
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.cpp
+Transaction.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.h
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.h
+string
+-
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/main.cpp
+iostream
+-
+Account.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.h
+
