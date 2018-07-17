@@ -14,6 +14,7 @@ int main() {
 
     a1.Deposit(deposit); // Using Deposit member function of Account Class
     cout << "After depositing $" + to_string(deposit) << endl;
+    cout << "Current Balance is " << a1.GetBalance() << endl;
 
     int count = 0;
 

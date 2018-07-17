@@ -19,6 +19,7 @@ public:
     std::vector<std::string> Report();
     bool Deposit(int amt);
     bool Withdraw(int amt);
+    int GetBalance(){return balance;} // Inline Function (if small can be written in header without being in .cpp file)
 };
 
 #endif //SIMPLECLASSES_ACCOUNT_H
