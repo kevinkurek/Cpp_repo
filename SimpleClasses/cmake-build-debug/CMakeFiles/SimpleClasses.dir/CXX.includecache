@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.cpp
-Account.h
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.h
-
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/include/Account.h
 vector
 -
 string
 -
 Transaction.h
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/include/Transaction.h
 
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.cpp
-Transaction.h
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.h
-
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/include/Transaction.h
 string
 -
 
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/main.cpp
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Account.cpp
+../include/Account.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/include/Account.h
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Transaction.cpp
+../include/Transaction.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/include/Transaction.h
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/main.cpp
 iostream
 -
-Account.h
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.h
+../include/Account.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/include/Account.h
 

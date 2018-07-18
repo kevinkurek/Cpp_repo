@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SimpleClasses.dir/main.cpp.o"
-  "CMakeFiles/SimpleClasses.dir/Account.cpp.o"
-  "CMakeFiles/SimpleClasses.dir/Transaction.cpp.o"
+  "CMakeFiles/SimpleClasses.dir/src/Account.cpp.o"
+  "CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o"
+  "CMakeFiles/SimpleClasses.dir/src/main.cpp.o"
   "SimpleClasses.pdb"
   "SimpleClasses"
 )

@@ -57,90 +57,90 @@ include CMakeFiles/SimpleClasses.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SimpleClasses.dir/flags.make
 
-CMakeFiles/SimpleClasses.dir/main.cpp.o: CMakeFiles/SimpleClasses.dir/flags.make
-CMakeFiles/SimpleClasses.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleClasses.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleClasses.dir/main.cpp.o -c /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/main.cpp
+CMakeFiles/SimpleClasses.dir/src/Account.cpp.o: CMakeFiles/SimpleClasses.dir/flags.make
+CMakeFiles/SimpleClasses.dir/src/Account.cpp.o: ../src/Account.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SimpleClasses.dir/src/Account.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleClasses.dir/src/Account.cpp.o -c /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Account.cpp
 
-CMakeFiles/SimpleClasses.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleClasses.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/main.cpp > CMakeFiles/SimpleClasses.dir/main.cpp.i
+CMakeFiles/SimpleClasses.dir/src/Account.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleClasses.dir/src/Account.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Account.cpp > CMakeFiles/SimpleClasses.dir/src/Account.cpp.i
 
-CMakeFiles/SimpleClasses.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleClasses.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/main.cpp -o CMakeFiles/SimpleClasses.dir/main.cpp.s
+CMakeFiles/SimpleClasses.dir/src/Account.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleClasses.dir/src/Account.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Account.cpp -o CMakeFiles/SimpleClasses.dir/src/Account.cpp.s
 
-CMakeFiles/SimpleClasses.dir/main.cpp.o.requires:
+CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.requires:
 
-.PHONY : CMakeFiles/SimpleClasses.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.requires
 
-CMakeFiles/SimpleClasses.dir/main.cpp.o.provides: CMakeFiles/SimpleClasses.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/SimpleClasses.dir/main.cpp.o.provides
+CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.provides: CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.provides.build
+.PHONY : CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.provides
 
-CMakeFiles/SimpleClasses.dir/main.cpp.o.provides.build: CMakeFiles/SimpleClasses.dir/main.cpp.o
-
-
-CMakeFiles/SimpleClasses.dir/Account.cpp.o: CMakeFiles/SimpleClasses.dir/flags.make
-CMakeFiles/SimpleClasses.dir/Account.cpp.o: ../Account.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleClasses.dir/Account.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleClasses.dir/Account.cpp.o -c /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.cpp
-
-CMakeFiles/SimpleClasses.dir/Account.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleClasses.dir/Account.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.cpp > CMakeFiles/SimpleClasses.dir/Account.cpp.i
-
-CMakeFiles/SimpleClasses.dir/Account.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleClasses.dir/Account.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Account.cpp -o CMakeFiles/SimpleClasses.dir/Account.cpp.s
-
-CMakeFiles/SimpleClasses.dir/Account.cpp.o.requires:
-
-.PHONY : CMakeFiles/SimpleClasses.dir/Account.cpp.o.requires
-
-CMakeFiles/SimpleClasses.dir/Account.cpp.o.provides: CMakeFiles/SimpleClasses.dir/Account.cpp.o.requires
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Account.cpp.o.provides.build
-.PHONY : CMakeFiles/SimpleClasses.dir/Account.cpp.o.provides
-
-CMakeFiles/SimpleClasses.dir/Account.cpp.o.provides.build: CMakeFiles/SimpleClasses.dir/Account.cpp.o
+CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.provides.build: CMakeFiles/SimpleClasses.dir/src/Account.cpp.o
 
 
-CMakeFiles/SimpleClasses.dir/Transaction.cpp.o: CMakeFiles/SimpleClasses.dir/flags.make
-CMakeFiles/SimpleClasses.dir/Transaction.cpp.o: ../Transaction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleClasses.dir/Transaction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleClasses.dir/Transaction.cpp.o -c /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.cpp
+CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o: CMakeFiles/SimpleClasses.dir/flags.make
+CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o: ../src/Transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o -c /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Transaction.cpp
 
-CMakeFiles/SimpleClasses.dir/Transaction.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleClasses.dir/Transaction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.cpp > CMakeFiles/SimpleClasses.dir/Transaction.cpp.i
+CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Transaction.cpp > CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.i
 
-CMakeFiles/SimpleClasses.dir/Transaction.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleClasses.dir/Transaction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/Transaction.cpp -o CMakeFiles/SimpleClasses.dir/Transaction.cpp.s
+CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/Transaction.cpp -o CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.s
 
-CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.requires:
+CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.requires:
 
-.PHONY : CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.requires
+.PHONY : CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.requires
 
-CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.provides: CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.requires
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.provides.build
-.PHONY : CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.provides
+CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.provides: CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.provides.build
+.PHONY : CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.provides
 
-CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.provides.build: CMakeFiles/SimpleClasses.dir/Transaction.cpp.o
+CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.provides.build: CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o
+
+
+CMakeFiles/SimpleClasses.dir/src/main.cpp.o: CMakeFiles/SimpleClasses.dir/flags.make
+CMakeFiles/SimpleClasses.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SimpleClasses.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SimpleClasses.dir/src/main.cpp.o -c /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/main.cpp
+
+CMakeFiles/SimpleClasses.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SimpleClasses.dir/src/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/main.cpp > CMakeFiles/SimpleClasses.dir/src/main.cpp.i
+
+CMakeFiles/SimpleClasses.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SimpleClasses.dir/src/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/src/main.cpp -o CMakeFiles/SimpleClasses.dir/src/main.cpp.s
+
+CMakeFiles/SimpleClasses.dir/src/main.cpp.o.requires:
+
+.PHONY : CMakeFiles/SimpleClasses.dir/src/main.cpp.o.requires
+
+CMakeFiles/SimpleClasses.dir/src/main.cpp.o.provides: CMakeFiles/SimpleClasses.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/SimpleClasses.dir/src/main.cpp.o.provides
+
+CMakeFiles/SimpleClasses.dir/src/main.cpp.o.provides.build: CMakeFiles/SimpleClasses.dir/src/main.cpp.o
 
 
 # Object files for target SimpleClasses
 SimpleClasses_OBJECTS = \
-"CMakeFiles/SimpleClasses.dir/main.cpp.o" \
-"CMakeFiles/SimpleClasses.dir/Account.cpp.o" \
-"CMakeFiles/SimpleClasses.dir/Transaction.cpp.o"
+"CMakeFiles/SimpleClasses.dir/src/Account.cpp.o" \
+"CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o" \
+"CMakeFiles/SimpleClasses.dir/src/main.cpp.o"
 
 # External object files for target SimpleClasses
 SimpleClasses_EXTERNAL_OBJECTS =
 
-SimpleClasses: CMakeFiles/SimpleClasses.dir/main.cpp.o
-SimpleClasses: CMakeFiles/SimpleClasses.dir/Account.cpp.o
-SimpleClasses: CMakeFiles/SimpleClasses.dir/Transaction.cpp.o
+SimpleClasses: CMakeFiles/SimpleClasses.dir/src/Account.cpp.o
+SimpleClasses: CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o
+SimpleClasses: CMakeFiles/SimpleClasses.dir/src/main.cpp.o
 SimpleClasses: CMakeFiles/SimpleClasses.dir/build.make
 SimpleClasses: CMakeFiles/SimpleClasses.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kevin/Dropbox/Github/Learning/Cpp_repo/SimpleClasses/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SimpleClasses"
@@ -151,9 +151,9 @@ CMakeFiles/SimpleClasses.dir/build: SimpleClasses
 
 .PHONY : CMakeFiles/SimpleClasses.dir/build
 
-CMakeFiles/SimpleClasses.dir/requires: CMakeFiles/SimpleClasses.dir/main.cpp.o.requires
-CMakeFiles/SimpleClasses.dir/requires: CMakeFiles/SimpleClasses.dir/Account.cpp.o.requires
-CMakeFiles/SimpleClasses.dir/requires: CMakeFiles/SimpleClasses.dir/Transaction.cpp.o.requires
+CMakeFiles/SimpleClasses.dir/requires: CMakeFiles/SimpleClasses.dir/src/Account.cpp.o.requires
+CMakeFiles/SimpleClasses.dir/requires: CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o.requires
+CMakeFiles/SimpleClasses.dir/requires: CMakeFiles/SimpleClasses.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/SimpleClasses.dir/requires
 

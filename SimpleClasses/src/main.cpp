@@ -1,14 +1,14 @@
 #include <iostream>
-#include "Account.h"
+#include "../include/Account.h"
 
 
 using namespace std;
 
 int main() {
 
-    int deposit = 500;
-    int withdraw = 50;
-    int withdraw2 = 100;
+    const int deposit = 500; // const declares this variable won't change & expedites compiling.
+    const int withdraw = 50;
+    const int withdraw2 = 100;
 
     Account a1; // Creating a1 instance (object) of Account Class
 
@@ -18,7 +18,7 @@ int main() {
 
     int count = 0;
 
-    for(auto s:a1.Report()) // Iterating Report member function of Account Class (s is iterable).
+    for (auto s:a1.Report()) // Iterating Report member function of Account Class (s is iterable).
     {
         cout << s << endl;
         count += 1;
@@ -35,7 +35,7 @@ int main() {
 
     int count_1 = 0;
 
-    for(auto s:a1.Report()){
+    for (auto s:a1.Report()) {
         cout << s << endl;
         count_1 += 1;
     }

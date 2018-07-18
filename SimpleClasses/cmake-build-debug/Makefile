@@ -123,86 +123,86 @@ SimpleClasses/fast:
 	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/build
 .PHONY : SimpleClasses/fast
 
-Account.o: Account.cpp.o
+src/Account.o: src/Account.cpp.o
 
-.PHONY : Account.o
-
-# target to build an object file
-Account.cpp.o:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Account.cpp.o
-.PHONY : Account.cpp.o
-
-Account.i: Account.cpp.i
-
-.PHONY : Account.i
-
-# target to preprocess a source file
-Account.cpp.i:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Account.cpp.i
-.PHONY : Account.cpp.i
-
-Account.s: Account.cpp.s
-
-.PHONY : Account.s
-
-# target to generate assembly for a file
-Account.cpp.s:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Account.cpp.s
-.PHONY : Account.cpp.s
-
-Transaction.o: Transaction.cpp.o
-
-.PHONY : Transaction.o
+.PHONY : src/Account.o
 
 # target to build an object file
-Transaction.cpp.o:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Transaction.cpp.o
-.PHONY : Transaction.cpp.o
+src/Account.cpp.o:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Account.cpp.o
+.PHONY : src/Account.cpp.o
 
-Transaction.i: Transaction.cpp.i
+src/Account.i: src/Account.cpp.i
 
-.PHONY : Transaction.i
+.PHONY : src/Account.i
 
 # target to preprocess a source file
-Transaction.cpp.i:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Transaction.cpp.i
-.PHONY : Transaction.cpp.i
+src/Account.cpp.i:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Account.cpp.i
+.PHONY : src/Account.cpp.i
 
-Transaction.s: Transaction.cpp.s
+src/Account.s: src/Account.cpp.s
 
-.PHONY : Transaction.s
+.PHONY : src/Account.s
 
 # target to generate assembly for a file
-Transaction.cpp.s:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/Transaction.cpp.s
-.PHONY : Transaction.cpp.s
+src/Account.cpp.s:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Account.cpp.s
+.PHONY : src/Account.cpp.s
 
-main.o: main.cpp.o
+src/Transaction.o: src/Transaction.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Transaction.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Transaction.cpp.o:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o
+.PHONY : src/Transaction.cpp.o
 
-main.i: main.cpp.i
+src/Transaction.i: src/Transaction.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Transaction.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Transaction.cpp.i:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.i
+.PHONY : src/Transaction.cpp.i
 
-main.s: main.cpp.s
+src/Transaction.s: src/Transaction.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Transaction.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Transaction.cpp.s:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.s
+.PHONY : src/Transaction.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/SimpleClasses.dir/build.make CMakeFiles/SimpleClasses.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -213,15 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SimpleClasses"
-	@echo "... Account.o"
-	@echo "... Account.i"
-	@echo "... Account.s"
-	@echo "... Transaction.o"
-	@echo "... Transaction.i"
-	@echo "... Transaction.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Account.o"
+	@echo "... src/Account.i"
+	@echo "... src/Account.s"
+	@echo "... src/Transaction.o"
+	@echo "... src/Transaction.i"
+	@echo "... src/Transaction.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
