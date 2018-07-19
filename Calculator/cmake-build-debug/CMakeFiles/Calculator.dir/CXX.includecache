@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Calculator/include/calculator.h
+iostream
+-
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Calculator/src/calculator.cpp
+../include/calculator.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Calculator/include/calculator.h
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Calculator/src/main.cpp
+iostream
+-
+../include/calculator.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Calculator/include/calculator.h
+

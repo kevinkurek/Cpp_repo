@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Calculator.dir/src/calculator.cpp.o CMakeFiles/Calculator.dir/src/main.cpp.o  -o Calculator 
