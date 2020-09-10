@@ -8,6 +8,12 @@ set(CMAKE_CXX_STANDARD 17)
 #FILE(GLOB_RECURSE SOURCE "../Source/*.cpp")
 
 SET(CMAKE_BUILD_TYPE Debug)
-add_executable(Person_Example ${PROJECT_NAME} ${HEADERS} ${SOURCE}
-        Source/main.cpp Headers/Person.h Source/Person.cpp Source/Tweeter.cpp
-        Headers/Tweeter.h Headers/status.h Source/prime.cpp)
+add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCE}
+        Source/main.cpp
+        Headers/Person.h Source/Person.cpp
+        Headers/Tweeter.h Source/Tweeter.cpp
+        Headers/status.h Source/prime.cpp
+        Headers/Accum.h
+        Headers/Resource.h
+        Source/Resource.cpp)
+#target_link_libraries((${PROJECT_NAME}))

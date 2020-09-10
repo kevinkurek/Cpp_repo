@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Person.cpp" "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/Person.cpp.o"
+  "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Resource.cpp" "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/Resource.cpp.o"
   "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Tweeter.cpp" "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/Tweeter.cpp.o"
   "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/main.cpp" "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/main.cpp.o"
   "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/prime.cpp" "/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/prime.cpp.o"

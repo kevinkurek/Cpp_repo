@@ -6,11 +6,10 @@
 
 using namespace std;
 
-calculator::calculator(double first_num, double second_num) {
-
-    num_1 = first_num;
-    num_2 = second_num;
-
+calculator::calculator(double first_num, double second_num) : num_1(first_num), num_2(second_num)
+{
+//    num_1 = first_num;
+//    num_2 = second_num;
 }
 
 double calculator::add() {
@@ -21,6 +20,16 @@ double calculator::add() {
 double calculator::add(double num_3) {
 
     return add() + num_3;
+}
+
+double calculator::subtract() {
+
+    return num_1 - num_2;
+}
+
+double calculator::computational_graph() {
+
+    return add() * subtract();
 }
 
 //double calculator::getFirst_num() const {

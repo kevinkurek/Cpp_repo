@@ -23,3 +23,7 @@ Tweeter::~Tweeter() {
     cout << "destructing tweeter "
             << twitterhandle << endl;
 }
+
+string Tweeter::GetName() const {
+    return Person::GetName() + " " + twitterhandle;
+}

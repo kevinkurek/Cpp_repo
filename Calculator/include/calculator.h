@@ -11,8 +11,6 @@ class calculator {
 
 
 private:
-    double first_num;
-    double second_num;
     double num_1;
     double num_2;
 public: // this public was created by CLion when creating getters
@@ -26,6 +24,10 @@ public:
     double add();
 
     double add(double num_3);
+
+    double subtract();
+
+    double computational_graph();
 
 };
 

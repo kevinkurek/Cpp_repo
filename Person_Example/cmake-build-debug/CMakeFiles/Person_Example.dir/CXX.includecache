@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Accum.h
+
 /Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Person.h
+../Headers/Resource.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Resource.h
+string
+-
+memory
+-
+
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Resource.h
 string
 -
 
@@ -17,20 +27,6 @@ string
 -
 
 /Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/status.h
-
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Person.cpp
-../Headers/Person.h
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Person.h
-iostream
--
-
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Tweeter.cpp
-../Headers/Tweeter.h
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Tweeter.h
-iostream
--
-string
--
 
 /Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/main.cpp
 iostream
@@ -41,8 +37,10 @@ iostream
 /Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Tweeter.h
 ../Headers/status.h
 /Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/status.h
+../Headers/Accum.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Accum.h
+../Headers/Resource.h
+/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Resource.h
 string
 -
-
-/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/prime.cpp
 

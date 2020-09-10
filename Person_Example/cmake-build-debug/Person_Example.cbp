@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Accum.h">
+			<Option target="Person_Example"/>
+		</Unit>
 		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Person.h">
+			<Option target="Person_Example"/>
+		</Unit>
+		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Resource.h">
 			<Option target="Person_Example"/>
 		</Unit>
 		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Headers/Tweeter.h">
@@ -92,6 +98,9 @@
 		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Person.cpp">
 			<Option target="Person_Example"/>
 		</Unit>
+		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Resource.cpp">
+			<Option target="Person_Example"/>
+		</Unit>
 		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/Tweeter.cpp">
 			<Option target="Person_Example"/>
 		</Unit>
@@ -99,9 +108,6 @@
 			<Option target="Person_Example"/>
 		</Unit>
 		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/Source/prime.cpp">
-			<Option target="Person_Example"/>
-		</Unit>
-		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/cmake-build-debug/Person_Example">
 			<Option target="Person_Example"/>
 		</Unit>
 		<Unit filename="/Users/kevin/Dropbox/Github/Learning/Cpp_repo/Person_Example/CMakeLists.txt">
