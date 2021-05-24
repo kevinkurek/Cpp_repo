@@ -11,70 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c728b09-53bc-4eca-897e-b9ef00fa42c3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../BigOExamples/.idea/BigOExamples.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Accum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Headers/Resource.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/Resource.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/src/calculator.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/src/calculator.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/src/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Calculator" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/cmake-build-debug/Calculator" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/include/calculator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/include/calculator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/src/calculator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/src/calculator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Calculator/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Calculator/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewBoston12-20/NewBoston12-20.xcodeproj/project.xcworkspace/xcuserdata/kevin.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../NewBoston12-20/NewBoston12-20.xcodeproj/project.xcworkspace/xcuserdata/kevin.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewBoston12-20/NewBoston12-20.xcodeproj/xcuserdata/kevin.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../NewBoston12-20/NewBoston12-20.xcodeproj/xcuserdata/kevin.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewBoston16/NewBoston16.xcodeproj/project.xcworkspace/xcuserdata/kevin.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../NewBoston16/NewBoston16.xcodeproj/project.xcworkspace/xcuserdata/kevin.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NewBoston16/NewBoston16.xcodeproj/xcuserdata/kevin.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../NewBoston16/NewBoston16.xcodeproj/xcuserdata/kevin.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+    <list default="true" id="4c728b09-53bc-4eca-897e-b9ef00fa42c3" name="Default" comment="Templates, Pointers, Manually &amp; Auto Memory Management Person Example Project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Person.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Person.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Headers/Tweeter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Tweeter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Person.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Person.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Tweeter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Tweeter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/Person.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/Person.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/Tweeter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/Tweeter.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/Source/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Person_Example.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Person_Example" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Person_Example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Person_Example.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Person_Example.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleClasses/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/CMakeFiles/SimpleClasses.dir/src/Account.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/CMakeFiles/SimpleClasses.dir/src/Account.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/CMakeFiles/SimpleClasses.dir/src/Transaction.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/CMakeFiles/SimpleClasses.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/CMakeFiles/SimpleClasses.dir/src/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/SimpleClasses" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleClasses/cmake-build-debug/SimpleClasses" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,17 +50,17 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.Build All">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Person_Example" TARGET_NAME="Person_Example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Person_Example" RUN_TARGET_NAME="Person_Example">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Person_Example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Person_Example" TARGET_NAME="Person_Example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Person_Example" RUN_TARGET_NAME="Person_Example">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -157,18 +95,35 @@
       <workItem from="1598946425596" duration="120000" />
       <workItem from="1598946646366" duration="9222000" />
       <workItem from="1599201336176" duration="18624000" />
-      <workItem from="1599687380482" duration="2037000" />
+      <workItem from="1599687380482" duration="3405000" />
+      <workItem from="1600701750699" duration="604000" />
     </task>
+    <task id="LOCAL-00001" summary="Templates, Pointers, Manually &amp; Auto Memory Management Person Example Project.">
+      <created>1599714972777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599714972777</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Templates, Pointers, Manually &amp; Auto Memory Management Person Example Project." />
+    <option name="LAST_COMMIT_MESSAGE" value="Templates, Pointers, Manually &amp; Auto Memory Management Person Example Project." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2151" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599201575104">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2151" y="360" key="#com.intellij.fileTypes.FileTypeChooser/37.23.1403.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1599201575104" />
+    <state x="2002" y="127" key="CommitChangelistDialog2" timestamp="1599714971833">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2002" y="127" key="CommitChangelistDialog2/37.23.1403.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1599714971833" />
     <state width="1878" height="305" key="GridCell.Tab.0.bottom" timestamp="1599630278964">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
@@ -213,6 +168,10 @@
     </state>
     <state width="1878" height="305" key="GridCell.Tab.1.right/37.23.1403.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1599630278967" />
     <state width="1878" height="195" key="GridCell.Tab.1.right/38.23.1402.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1598948023024" />
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1599714977452">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/37.23.1403.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1599714977452" />
     <state x="2107" y="140" width="586" height="822" key="find.popup" timestamp="1598949237681">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
