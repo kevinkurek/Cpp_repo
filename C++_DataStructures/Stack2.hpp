@@ -1,11 +1,19 @@
+// Stack2.hpp -- Stack class template refined with overflow protection
+//
+// Variations from Stack1.hpp:
+// - Added the StackOverflowException class
+// - Added code in Stack::Push() checking stack overflow conditions
+//
+
 #ifndef STACK_HPP_INCLUDED
 #define STACK_HPP_INCLUDED
 
 #include <ostream>
 #include "Array.hpp"
 
-class StackOverflowException{};
-class StackUnderflowException{};
+// This represents a stack overflow error.
+// In production code exception classes can be derived from std::runtime_error
+class StackOverflowException {};
 
 template <typename T>
 class Stack {
@@ -13,6 +21,7 @@ class Stack {
  private:
   Array<T> m_array; // Stack elements are stored in this array
   int      m_top;   // Index of the top element (-1 for empty stack)
+
 
  public:
 
@@ -22,9 +31,9 @@ class Stack {
   {}
 
   void Push(const T& element) {
-
-    // check if enough room, if not, you have a stack overflow
-    if (Size() >= MaxSize()){
+    // Before pushing on top of the stack, check that there's enough room
+    if (Size() >= MaxSize()) {
+      // There's not enough room in this stack for pushing a new element
       throw StackOverflowException{};
     }
 
@@ -34,15 +43,15 @@ class Stack {
   }
 
   T Pop() {
-    if (Size() == IsEmpty()){
-      throw StackUnderflowException{};
-    }
+    // NOTE: We should add a similar check preventing underflow,
+    // i.e. popping from an empty stack...
+
     T topElement = m_array[m_top];
     m_top--;
     return topElement;
   }
 
-  const T Top() const {
+  const T& Top() const {
     return m_array[m_top];  
   }
 
